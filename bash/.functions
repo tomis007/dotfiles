@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# make it easier to create/list/attach to tmux sessions
+# list sessions with tml (tmux ls)
+function t() {
+    tmux ls;
+}
+
+# attach to session with name of supplied argument
+# OR create a new session with name if it's not found
+function tm() {
+    if [ $# -eq 0 ]; then
+        tmux;
+    else
+        tmux new-session -A -s $1;
+    fi
+}

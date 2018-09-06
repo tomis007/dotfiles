@@ -1,0 +1,10 @@
+# ignore filename case
+set completion-ignore-case on
+
+# show all matches if multiple possible, then cycle through
+set show-all-if-ambiguous on
+set menu-complete-display-prefix on
+
+# match hidden files unless explicit dot
+set match-hidden-files off
+

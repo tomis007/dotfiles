@@ -1,0 +1,5 @@
+# vim default
+export EDITOR='vim'
+
+# dont load ranger rc twice
+export RANGER_LOAD_DEFAULT_RC=FALSE

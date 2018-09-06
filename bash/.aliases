@@ -1,0 +1,18 @@
+# aliases for bash
+
+# clear, and clear scrollback
+alias cl="clear"
+
+# quicker folder navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../../"
+alias .....="cd ../../../../"
+
+# ls shortcuts
+alias la="ls -Ga"
+alias ls="command ls -G"
+alias l="ls -lG"
+
+# grep color
+alias grep='grep --color=auto'
